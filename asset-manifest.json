@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.09cfad60.css",
-    "main.js": "/test/static/js/main.c56615e8.js",
-    "index.html": "/test/index.html",
-    "main.09cfad60.css.map": "/test/static/css/main.09cfad60.css.map",
-    "main.c56615e8.js.map": "/test/static/js/main.c56615e8.js.map"
+    "main.css": "/testnvl.mooo.com/static/css/main.09cfad60.css",
+    "main.js": "/testnvl.mooo.com/static/js/main.5430600d.js",
+    "index.html": "/testnvl.mooo.com/index.html",
+    "main.09cfad60.css.map": "/testnvl.mooo.com/static/css/main.09cfad60.css.map",
+    "main.5430600d.js.map": "/testnvl.mooo.com/static/js/main.5430600d.js.map"
   },
   "entrypoints": [
     "static/css/main.09cfad60.css",
-    "static/js/main.c56615e8.js"
+    "static/js/main.5430600d.js"
   ]
 }
