@@ -32,13 +32,13 @@ export default function App() {
           <div className="w-full">
             <Routes>
               <Route path="/" element={<Home />}></Route>
-              <Route path="/init" element={user && status ? <InitData /> : <Navigate to='/' />}></Route>
-              <Route path="/login" element={user ? <Navigate to='/' /> : <Login />}></Route>
-              <Route path="/question/:id" element={<Question />}></Route>
-              <Route path="/essay/:id" element={<Essay />}></Route>
-              <Route path="/test" element={<Test />}></Route>
-              <Route path="/list-user" element={admin ? <List /> : <Navigate to='/' />}></Route>
-              <Route path="/*" element={<Page404 />} ></Route>
+              <Route path="/test/init" element={user && status ? <InitData /> : <Navigate to='/' />}></Route>
+              <Route path="/test/login" element={user ? <Navigate to='/' /> : <Login />}></Route>
+              <Route path="/test/question/:id" element={<Question />}></Route>
+              <Route path="/test/essay/:id" element={<Essay />}></Route>
+              <Route path="/test/test" element={<Test />}></Route>
+              <Route path="/test/list-user" element={admin ? <List /> : <Navigate to='/' />}></Route>
+              <Route path="/test/*" element={<Page404 />} ></Route>
             </Routes></div>
         </div>
         <Footer />
