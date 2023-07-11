@@ -1,6 +1,6 @@
 import "./styles.css";
 import { Footer, Nav, InitData } from "./component";
-import { BrowserRouter , Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter , Navigate, Route, Routes, HashRouter } from "react-router-dom";
 import { Home, Login, Question, Page404, Essay} from "./page";
 import { AuthContext } from "./context/AuthContext";
 import ListLoginUser from "./page/listLoginUser/ListLoginUser";
@@ -14,7 +14,7 @@ export default function App() {
   const { user, status, admin } = useContext(AuthContext)
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <Nav />
         <ToastContainer
           position="top-right"
@@ -42,7 +42,7 @@ export default function App() {
             </Routes></div>
         </div>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
